@@ -3,7 +3,7 @@
     <div class="title box-decorator">Vue Playground</div>
     <div class="main">
       <aside class="box-decorator">
-        <SideBar :data-list="dataList"/>
+        <SideBar :data-list="dataList" />
       </aside>
       <main class="box-decorator">
         main
@@ -23,8 +23,8 @@ export default {
   },
   data() {
     return {
-      activeTab:"",
-       dataList : [
+      activeTab: "",
+      dataList: [
         {
           category: "Basic",
           items: [
@@ -75,7 +75,7 @@ export default {
 .container {
   margin: auto;
   height: 90vh;
-  width: 80vw;
+  width: 90vw;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -85,7 +85,7 @@ export default {
 .main {
   margin: auto;
   height: 80%;
-  width: 80vw;
+  width: 90vw;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -100,12 +100,12 @@ export default {
 }
 
 aside {
-  width: 20%;
+  width: 25%;
   height: 100%;
 }
 
 main {
-  width: 80%;
+  width: 75%;
   height: 100%;
 }
 
@@ -118,7 +118,7 @@ main {
   padding: 5px 0;
   font-size: 2.5rem;
   font-weight: bold;
-  color: aliceblue;
+  color: green;
   background: var(--color-9);
 
 }
