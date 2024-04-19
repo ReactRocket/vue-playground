@@ -1,0 +1,24 @@
+:root{
+    --color-1:#e6d8d8;
+    --color-2:#ccc0c0;
+    --color-3:#b1a5a5;
+    --color-4:#918888;
+    --color-5:#776f6f;
+    --color-6:#554f4f;
+    --color-7:#423e3e;
+    --color-8:#312e2e;
+    --color-9:#1d1c1c;
+    --color-10:#000000;
+}
+
+
+body{
+    background: var(--color-7);
+    color: var(--color-1);
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
