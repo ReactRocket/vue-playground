@@ -75,7 +75,7 @@ export default {
 .container {
   margin: auto;
   height: 90vh;
-  width: 90vw;
+  width: 80vw;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -85,7 +85,7 @@ export default {
 .main {
   margin: auto;
   height: 80%;
-  width: 90vw;
+  width: 80vw;
   display: flex;
   justify-content: center;
   align-items: center;
