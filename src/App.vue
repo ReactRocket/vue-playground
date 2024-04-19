@@ -6,7 +6,8 @@
         <SideBar :data-list="dataList" />
       </aside>
       <main class="box-decorator">
-        main
+        
+        <Home />
       </main>
     </div>
   </div>
@@ -15,11 +16,13 @@
 
 <script>
 import SideBar from './components/Aside.vue';
+import Home from './pages/Home.vue';
 
 export default {
   name: "App",
   components: {
     SideBar,
+    Home
   },
   data() {
     return {
